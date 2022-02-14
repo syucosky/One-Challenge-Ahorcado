@@ -1,13 +1,15 @@
-body{
-   background-color: rgba(183, 235, 242, 0.494)
+* {
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 #header{
     text-align: center;
 }
 .titulo{
-    color: blue;
-    font-size: 275%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(8, 8, 9);
+    font-size: 250%;
+    font-family: Serif;
 }
 .btn-id{
     text-align: center;
@@ -16,23 +18,24 @@ body{
     text-decoration:none;
     font-weight: 600;
     font-size: 120%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#000000;
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left:2%;
-    padding-right:2%;
-    background-color: rgba(87, 168, 255, 0.679);
+    font-family: Serif;
+    color:#080505;
+    padding-top:0.1%;
+    padding-bottom:0.1%;
+    padding-left:0.1%;
+    padding-right:0.1%;
+    background-color: rgba(255, 255, 255, 0.679);
     border-width: 1%;
     border-style: solid;
     border-color: #000000;
+    margin-bottom: 5px;
 }
 #div-input{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 1%;
-    padding-top: 3%;
+    padding-top: 2%;
 }
 #cuadro-input{
     font-size: 110%;
@@ -41,8 +44,22 @@ body{
     padding-top:0.5%;
     padding-left:0.5%;
     padding-bottom:0.5%;
-    border-width: 1%;
+    border-width: 5%;
     border-style: solid;
-    border-color: #000000;
+    border-color: #00000071;
     text-transform: uppercase;
+}
+#div-footer{
+   text-align: center;
+    margin-top: 10px;
+}
+#cuadrante-canvas {
+    width: 250px;
+    margin-left: 250px;
+    margin-bottom: 6px;
+    padding: 3px;
+    align-content: center;
+}
+canvas{
+    background-color: grey;
 }

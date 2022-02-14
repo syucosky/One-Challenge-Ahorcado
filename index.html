@@ -7,20 +7,37 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Ahorcado</title>
 </head>
-<body>
-    
+<body class="body">
     <div id="header">
-        <header> <h1 class="titulo">Juego del Ahorcado</h1>
+        <header> <h1 class="titulo">Juego del  Ahorcado</h1>
         </header>
     </div>
     <div class="btn-id">
-        <button class="botones"> Iniciar Juego</button>
+        <button  class="botones" id="nuevo-juego">NUEVO JUEGO</button>    
     </div>
     <div id="div-input">
         <input type="text" id="cuadro-input" >
     </div>
     <div class="btn-id">
-        <button class="botones"> Agregar Palabra</button>
+        <button class="botones">AGREGAR PALABRA</button>
     </div>
+    <div id="cuadrante-canvas">
+        <div >
+            <button class="botones" id="otro_intento" onclick="location.reload()">OTRO INTENTO</button>
+        </div>
+        <canvas width= 800 height=600 inputmode="text"></canvas>
+    </div>
+    <div id="div-footer">
+        <footer> 
+        <p>
+            Copyright Sebastian Yucosky
+        </p>
+        </footer>
+        
+    </div>
+    <script src="js/codigo.js"></script>
+    <script src="js/juego.js"></script>
+    <script src="js/palabras.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
